@@ -32,9 +32,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2kVMSp3469rysB2Cu5tbGC0bhFs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -51,6 +51,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Tomcat Server.Tomcat 10.1.24.executor": "Run",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Dell/OneDrive/Documents/GDSE 68/2nd Sem/AAD/Intro-With_Spring-Web/src/main/java/lk/ijse/gdse68/introwith_springweb",
     "node.js.detected.package.eslint": "true",
@@ -62,6 +63,9 @@
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ],
     "GitStage.ChangesTree.GroupingKeys": [
       "directory",
       "module",
@@ -172,7 +176,26 @@
       <option name="presentableId" value="Default" />
       <updated>1723364297736</updated>
       <workItem from="1723364298878" duration="1554000" />
+      <workItem from="1723880036601" duration="463000" />
+      <workItem from="1723952305899" duration="1364000" />
     </task>
+    <task id="LOCAL-00001" summary="All">
+      <option name="closed" value="true" />
+      <created>1723879906825</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723879906825</updated>
+    </task>
+    <task id="LOCAL-00002" summary="RequestParam">
+      <option name="closed" value="true" />
+      <created>1723953660707</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723953660707</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,5 +203,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="All" />
+    <MESSAGE value="RequestParam" />
+    <option name="LAST_COMMIT_MESSAGE" value="RequestParam" />
   </component>
 </project>
