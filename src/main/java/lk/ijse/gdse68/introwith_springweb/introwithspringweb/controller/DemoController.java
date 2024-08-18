@@ -1,6 +1,10 @@
 package lk.ijse.gdse68.introwith_springweb.introwithspringweb.controller;
 
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import java.awt.*;
 
 @RequestMapping("/demo")
 @RestController
@@ -25,5 +29,18 @@ public class DemoController {
     @PostMapping(params = {"name","quantity"})
     public String paramData(@RequestParam("name") String param01,@RequestParam ("quantity") String param02) {
         return "Param data are "+ param01 + " and " + param02;
+    }
+
+    @PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE)
+    public String saveJSON() {
+        return "Save JSON";
+    }
+
+    @PostMapping(value = "/dynamic/{value:\\d{2}}")
+    public ResponseEntity<String> returenDynamicData(@PathVariable("value") int incomingValue ) {
+        if (incomingValue % 2 == 0) {
+            return ResponseEntity.ok("Dynamic Data Are Even");
+        }
+        return ResponseEntity.ok("Dynamic Data Are Odd");
     }
 }

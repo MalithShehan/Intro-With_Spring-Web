@@ -81,6 +81,7 @@
   <component name="RunManager">
     <configuration name="Tomcat 10.1.24" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.24" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="Intro-With_Spring-Web:war exploded">
           <settings>
@@ -177,7 +178,7 @@
       <updated>1723364297736</updated>
       <workItem from="1723364298878" duration="1554000" />
       <workItem from="1723880036601" duration="463000" />
-      <workItem from="1723952305899" duration="1674000" />
+      <workItem from="1723952305899" duration="3541000" />
     </task>
     <task id="LOCAL-00001" summary="All">
       <option name="closed" value="true" />
@@ -203,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723953737266</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Pathvariable With Regex And Header">
+      <option name="closed" value="true" />
+      <created>1723954349106</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723954349106</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +222,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="All" />
     <MESSAGE value="RequestParam" />
-    <option name="LAST_COMMIT_MESSAGE" value="RequestParam" />
+    <MESSAGE value="Pathvariable With Regex And Header" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pathvariable With Regex And Header" />
   </component>
 </project>
