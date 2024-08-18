@@ -13,6 +13,10 @@ public class DemoController {
     public String pathvariableWithRegex(@PathVariable("id") String id) {
         return "DemoController run perfectly with :"+id;
     }
+    @GetMapping(value = "/patternRegex/{id:C\\d{3}}",headers = "X-number")
+    public String pathvariableWithRegexAndHeader(@PathVariable("id") String id, @RequestHeader("X-number") int num) {
+        return "Path variable is :"+id + " and Header is :"+num;
+    }
     @GetMapping(params = "test=all")
     public String params() {
         return "All are tested";
