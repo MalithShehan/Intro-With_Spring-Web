@@ -15,6 +15,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -178,7 +185,7 @@
       <updated>1723364297736</updated>
       <workItem from="1723364298878" duration="1554000" />
       <workItem from="1723880036601" duration="463000" />
-      <workItem from="1723952305899" duration="3541000" />
+      <workItem from="1723952305899" duration="8901000" />
     </task>
     <task id="LOCAL-00001" summary="All">
       <option name="closed" value="true" />
@@ -212,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723954349106</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Returen Dynamic Data">
+      <option name="closed" value="true" />
+      <created>1723956012091</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723956012091</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +238,7 @@
     <MESSAGE value="All" />
     <MESSAGE value="RequestParam" />
     <MESSAGE value="Pathvariable With Regex And Header" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pathvariable With Regex And Header" />
+    <MESSAGE value="Returen Dynamic Data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Returen Dynamic Data" />
   </component>
 </project>

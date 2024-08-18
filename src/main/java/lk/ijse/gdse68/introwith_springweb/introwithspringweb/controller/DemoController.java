@@ -1,10 +1,13 @@
 package lk.ijse.gdse68.introwith_springweb.introwithspringweb.controller;
 
+import lk.ijse.gdse68.introwith_springweb.introwithspringweb.dto.Customer;
+import lk.ijse.gdse68.introwith_springweb.introwithspringweb.dto.Item;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.util.MultiValueMap;
 import org.springframework.web.bind.annotation.*;
 
-import java.awt.*;
+import java.util.Map;
 
 @RequestMapping("/demo")
 @RestController
@@ -42,5 +45,29 @@ public class DemoController {
             return ResponseEntity.ok("Dynamic Data Are Even");
         }
         return ResponseEntity.ok("Dynamic Data Are Odd");
+    }
+
+    @PostMapping(value = "/mapparams", params = {"id","desc"})
+    public String handleMaps(@RequestParam ("id") String id, @RequestParam ("desc")String desc, @RequestParam Map<String,String> params){
+        System.out.println(params);
+        return "Handle Maps with params "+params;
+    }
+    @PostMapping(value = "/multimapparams", params = {"id","desc"})
+    public String handleMultiMaps(@RequestParam ("id") String id, @RequestParam ("desc")String desc, @RequestParam MultiValueMap<String,String> params){
+        System.out.println(params);
+        return "Handle Maps with params "+params;
+    }
+    @PostMapping(value = "/multimapparamstodto", params = {"id","desc"})
+    public String handleMultiMapsWithDTO(@RequestParam ("id") String id, @RequestParam ("desc")String desc, @RequestParam MultiValueMap<String,String> params, Item item){
+        System.out.println(item);
+        return "Handle Maps with params "+params;
+    }
+
+    @PostMapping(value = "/customer", consumes = MediaType.APPLICATION_JSON_VALUE)
+    public String JSONToDTO(@RequestBody Customer customer) {
+        System.out.println(customer.getId());
+        System.out.println(customer.getName());
+        System.out.println(customer.getEmail());
+        return "Convert success";
     }
 }
